@@ -1,7 +1,6 @@
-import React from 'react';
 import { Outlet } from 'react-router-dom';
-import { Breadcrumb, Button, Layout, Menu, theme } from 'antd';
-import { ClockCircleOutlined, QrcodeOutlined, WalletOutlined, LineChartOutlined, UserOutlined } from '@ant-design/icons';
+import { Button, Layout, Menu, theme } from 'antd';
+import { ClockCircleOutlined, WalletOutlined, LineChartOutlined, UserOutlined } from '@ant-design/icons';
 import { Link } from 'react-router-dom';
 
 const { Header, Content, Sider } = Layout;
@@ -73,7 +72,7 @@ const AppLayout = ({ children }) => {
               fontWeight: 'bold',
             }}
           >
-            <UserOutlined />  DemoBar
+            <UserOutlined /> DemoBar
           </p>
           <Button type="primary" size="medium">
             Logout
@@ -98,12 +97,6 @@ const AppLayout = ({ children }) => {
             padding: '0 24px 24px',
           }}
         >
-          <Breadcrumb
-            style={{
-              margin: '16px 0',
-            }}
-          >
-          </Breadcrumb>
           <Content
             style={{
               padding: 24,

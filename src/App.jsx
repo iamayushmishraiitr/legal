@@ -1,16 +1,15 @@
-import React from "react";
 import {
   BrowserRouter as Router,
   Route,
   Routes,
 } from "react-router-dom";
-import Login from "./pages/auth/Login";
-import SignUp from "./pages/auth/Signup"; 
-import AppLayout from "./component/global/AppLayout"; 
-import Wallet from "./pages/wallet/Wallet";
-import ClubProfile from "./pages/clubProfile/ClubProfile"; 
-import ScanHistory from "./pages/scanHistory/ScanHistory";
-import Analysis from "./pages/analysis/Analysis";
+import Login from "./pages/auth/Login.jsx";
+import SignUp from "./pages/auth/Signup.jsx"; 
+import AppLayout from "./component/global/AppLayout.jsx"; 
+import Wallet from "./pages/wallet/Wallet.tsx";
+import ClubProfile from "./pages/clubProfile/ClubProfile.jsx"; 
+import ScanHistory from "./pages/scanHistory/ScanHistory.jsx";
+import Analysis from "./pages/analysis/Analysis.jsx";
 
 function App() {
   return (

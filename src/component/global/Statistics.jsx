@@ -1,7 +1,8 @@
 import { Card, DatePicker } from 'antd';
 import React, { useState } from 'react';
-const { RangePicker } = DatePicker;
 import dayjs from 'dayjs';
+
+const { RangePicker } = DatePicker;
 
 const Statistics = ({ dataName, heading }) => {
     const [dateRange, setDateRange] = useState([
@@ -39,8 +40,8 @@ const Statistics = ({ dataName, heading }) => {
                 </div>
             }
             <div className="flex justify-between mt-5 gap-5">
-                {dataName?.map((item, index = 0) => (
-                    <div className="w-1/3 h-18 border-r border-gray-300 text-center">
+                {dataName?.map((item, index) => (
+                    <div key={index} className="w-1/3 h-18 border-r border-gray-300 text-center">
                         <p className="text-black opacity-75 m-0">{item?.name}</p>
                         <p
                             className="text-3xl font-semibold m-0"
