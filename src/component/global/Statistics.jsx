@@ -1,22 +1,12 @@
 import { Card, DatePicker } from 'antd';
-import { useState } from 'react';
 import dayjs from 'dayjs';
 
 const { RangePicker } = DatePicker;
 
 const Statistics = ({ dataName, heading }) => {
-    const [dateRange, setDateRange] = useState([
-        dayjs(new Date().setHours(0, 0, 0)),
-        dayjs(new Date().setHours(23, 59, 59)),
-    ]);
+  
 
-    const dateFilter = async (date, dateString) => {
-        const localDate = [
-            dayjs(new Date(dateString[0]).setHours(0, 0, 0)),
-            dayjs(new Date(dateString[1]).setHours(23, 59, 59)),
-        ];
-        setDateRange(localDate);
-    };
+   
 
     const color = ['#2C89E5', '#3ebb8e', '#722ED1', '#EB2F96', '#FAAD14', '#FF4D4F'];
 
