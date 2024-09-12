@@ -1,6 +1,6 @@
 import { Divider, Table } from 'antd'
 import React from 'react'
-import Statistics from '../../component/global/Statistics'
+import Statistics from '../../component/global/statistics'
 
 const Wallet = () => {
 

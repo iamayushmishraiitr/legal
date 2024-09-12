@@ -2,7 +2,7 @@ import React from 'react'
 import LineChart from './LineChart'
 import BarChart from './BarChart'
 import PieChart from './PieChart'
-import Statistics from '../../component/global/Statistics'
+import Statistics from '../../component/global/statistics'
 
 const Analysis = () => {
   
