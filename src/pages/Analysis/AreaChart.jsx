@@ -1,4 +1,4 @@
-import React from 'react';
+
 import { Area } from '@ant-design/charts';
 
 const AreaChart = () => {

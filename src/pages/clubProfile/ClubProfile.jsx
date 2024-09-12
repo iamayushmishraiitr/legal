@@ -1,5 +1,4 @@
 import { Button, Divider, Flex, Form, Input } from 'antd'
-import React from 'react'
 import PhoneInput from 'react-phone-input-2'
 import QRCode from 'react-qr-code';
 const { TextArea } = Input;

@@ -15,7 +15,7 @@ const generateRandomData = () => {
     // Generate random Aadhar number (just for example, not a real Aadhar format)
     const randomAadharNumber = () => `${Math.floor(Math.random() * 9000000000) + 1000000000}`;
     // Generate random email
-    const randomEmail = () => `${['test', 'sample', 'demo'][Math.floor(Math.random() * 3)]}@example.com`;
+   // const randomEmail = () => `${['test', 'sample', 'demo'][Math.floor(Math.random() * 3)]}@example.com`;
 
     // Generate the data array
     return Array.from({ length: 50 }, () => ({

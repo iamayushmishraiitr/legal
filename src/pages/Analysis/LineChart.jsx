@@ -1,4 +1,3 @@
-import React from 'react';
 import { Line } from '@ant-design/charts';
 
 const LineChart = () => { 
@@ -7,7 +6,7 @@ const LineChart = () => {
         { month: 'Feb', value: 32, type: 'Total' },
         { month: 'Mar', value: 28, type: 'Total' },
         { month: 'Apr', value: 35, type: 'Total' },
-        { month: 'May', value: 40, type: 'Total' },
+        { month: 'May', valuxe: 40, type: 'Total' },
         { month: 'Jun', value: 42, type: 'Total' },
         { month: 'Jul', value: 38, type: 'Total' },
         { month: 'Aug', value: 45, type: 'Total' },

@@ -1,4 +1,3 @@
-import React from 'react';
 import { Button, Form, Input } from 'antd';
 import { Link } from 'react-router-dom';
 import { MailOutlined, SecurityScanOutlined, EnvironmentOutlined, ShopOutlined } from '@ant-design/icons';
