@@ -2,7 +2,7 @@
 import LineChart from './LineChart'
 import BarChart from './BarChart'
 import PieChart from './PieChart'
-import Statistics from '../../component/global/statistics'
+//import Statistics from '../../component/global/statistics'
 
 const Analysis = () => {
   
@@ -39,7 +39,7 @@ const Analysis = () => {
         Analysis
       </div>
       <div className='flex flex-col gap-[15vh] mt-[5vh]'>
-        <Statistics dataName={dataName} heading={"analysis"} />
+        {/*<Statistics dataName={dataName} heading={"analysis"} />*/}
         <div>
           <h1 className='text-center font-bold text-xl'>Monthly User Scan Trends</h1>
           <LineChart />
