@@ -1,5 +1,5 @@
 import { Divider, Table } from 'antd'
-import Statistics from '../../component/global/statistics'
+import Statistics from '../../component/global/statistics.jsx'
 
 const Wallet = () => {
 
