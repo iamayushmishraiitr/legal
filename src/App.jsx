@@ -9,7 +9,7 @@ import AppLayout from "./component/global/AppLayout.jsx";
 import Wallet from "./pages/Wallet/Wallet.jsx";
 import ClubProfile from "./pages/clubProfile/ClubProfile.jsx"; 
 import ScanHistory from "./pages/scanHistory/ScanHistory.jsx";
-import Analysis from "./pages/analysis/Analysis.jsx";
+import Analysis from "./pages/Analysis/Analysis.jsx";
 
 function App() {
   return (
