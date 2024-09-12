@@ -6,7 +6,7 @@ import {
 import Login from "./pages/auth/Login.jsx";
 import SignUp from "./pages/auth/Signup.jsx"; 
 import AppLayout from "./component/global/AppLayout.jsx"; 
-import Wallet from "./pages/wallet/Wallet.jsx";
+import Wallet from "./pages/Wallet/Wallet.jsx";
 import ClubProfile from "./pages/clubProfile/ClubProfile.jsx"; 
 import ScanHistory from "./pages/scanHistory/ScanHistory.jsx";
 import Analysis from "./pages/analysis/Analysis.jsx";
