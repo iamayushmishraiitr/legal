@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 import Login from "./pages/auth/Login";
 import SignUp from "./pages/auth/Signup"; 
-import AppLayout from "./component/global/Applayout"; 
+import AppLayout from "./component/global/appLayout"; 
 import Wallet from "./pages/wallet/Wallet";
 import ClubProfile from "./pages/clubProfile/ClubProfile"; 
 import ScanHistory from "./pages/scanHistory/ScanHistory";
