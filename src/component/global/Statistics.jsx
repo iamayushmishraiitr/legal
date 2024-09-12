@@ -1,5 +1,5 @@
 import { Card, DatePicker } from 'antd';
-import React, { useState } from 'react';
+import { useState } from 'react';
 import dayjs from 'dayjs';
 
 const { RangePicker } = DatePicker;
