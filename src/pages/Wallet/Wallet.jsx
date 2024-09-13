@@ -147,7 +147,6 @@ const Wallet = () => {
       </div>
       <Divider />
       <div className='flex flex-col gap-[10vh]'>
-      {/*<Statistics dataName={dataName} />*/}
       <div className='flex flex-row justify-center border-2 h-[140px] w-full'>
   <div className='flex flex-col mt-2 mb-2 border-r-2 items-center justify-center flex-1'>
     <h1 className='text-xl'>Total Scans</h1>
