@@ -1,5 +1,4 @@
 import { Divider, Table } from 'antd'
-import Statistics from "../../component/global/statistics"
 
 const Wallet = () => {
 
@@ -148,7 +147,21 @@ const Wallet = () => {
       </div>
       <Divider />
       <div className='flex flex-col gap-[10vh]'>
-      {<Statistics dataName={dataName} />}
+      {/*<Statistics dataName={dataName} />*/}
+      <div className='flex flex-row justify-center border-2 h-[140px] w-full'>
+  <div className='flex flex-col mt-2 mb-2 border-r-2 items-center justify-center flex-1'>
+    <h1 className='text-xl'>Total Scans</h1>
+    <h1 className='text-xl text-blue-600'>100</h1>
+  </div>
+  <div className='flex flex-col mt-2 mb-2 border-r-2 items-center justify-center flex-1'>
+    <h1 className='text-xl'>Number of Scans Used</h1>
+    <h1 className='text-xl text-blue-600'>75</h1>
+  </div>
+  <div className='flex flex-col mt-2 mb-2 border-r-2 items-center justify-center flex-1'>
+    <h1 className='text-xl'>Number of Scans Remaining</h1>
+    <h1 className='text-xl text-blue-600'>25</h1>
+  </div>
+</div>
         <Table
           dataSource={dataSource}
           columns={columns}
