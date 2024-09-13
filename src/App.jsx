@@ -14,17 +14,17 @@ import Analysis from "./pages/Analysis/Analysis.jsx";
 function App() {
   return (
     <Router>
-      <Routes>
-        <Route path="/" element={<Login />} />
-        <Route path="/signup" element={<SignUp />} />
-        <Route element={<AppLayout />}> 
-          <Route path="/scan-history" element={<ScanHistory/>} />
-          <Route path="/wallet" element={<Wallet />} />
-          <Route path="/analysis" element={<Analysis />} />
-          <Route path="/club-profile" element={<ClubProfile />} />
-        </Route>
-      </Routes>
-    </Router>
+    <Routes>
+      <Route path="/" element={<Login />} />
+      <Route path="/signup" element={<SignUp />} />
+      <Route element={<AppLayout />}> 
+        <Route path="/scan-history" element={<ScanHistory />} />
+        <Route path="/wallet" element={<Wallet />} />
+        <Route path="/analysis" element={<Analysis />} />
+        <Route path="/club-profile" element={<ClubProfile />} />
+      </Route>
+    </Routes>
+  </Router>
   );
 }
 
