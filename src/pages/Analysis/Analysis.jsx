@@ -6,33 +6,7 @@ import PieChart from './PieChart'
 
 const Analysis = () => {
   
-  const dataName = [
-    {
-      name: "Total Scans",
-      value: 100,
-    },
-    {
-      name: "Males",
-      value: 75,
-    },
-    {
-      name: "Females",
-      value: 25,
-    },
-    {
-      name: "Below 21 Years",
-      value: 25,
-    },
-    {
-      name: "Between 21-25 Years",
-      value: 25,
-    },
-    {
-      name: "Above 25 Years",
-      value: 25,
-    }
-  ]
-
+ 
   return (
     <div className='flex flex-col'>
       <div className="text-gray-900 font-medium text-base">

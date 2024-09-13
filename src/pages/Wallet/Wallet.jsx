@@ -2,20 +2,6 @@ import { Divider, Table } from 'antd'
 
 const Wallet = () => {
 
-  const dataName = [
-    {
-      name: "Total Scans",
-      value: 100,
-    },
-    {
-      name: "Number of Scans Used",
-      value: 75,
-    },
-    {
-      name: "Number of Scans Remaining",
-      value: 25,
-    }
-  ]
   const dataSource = [
     {
       key: '1',
