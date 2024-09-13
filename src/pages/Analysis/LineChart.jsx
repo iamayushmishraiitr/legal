@@ -2,19 +2,7 @@ import { Line } from '@ant-design/charts';
 
 const LineChart = () => { 
     const data = [
-        { month: 'Jan', value: 30, type: 'Total' },
-        { month: 'Feb', value: 32, type: 'Total' },
-        { month: 'Mar', value: 28, type: 'Total' },
-        { month: 'Apr', value: 35, type: 'Total' },
-        { month: 'May', valuxe: 40, type: 'Total' },
-        { month: 'Jun', value: 42, type: 'Total' },
-        { month: 'Jul', value: 38, type: 'Total' },
-        { month: 'Aug', value: 45, type: 'Total' },
-        { month: 'Sep', value: 47, type: 'Total' },
-        { month: 'Oct', value: 44, type: 'Total' },
-        { month: 'Nov', value: 50, type: 'Total' },
-        { month: 'Dec', value: 52, type: 'Total' },
-
+      
         { month: 'Jan', value: 20, type: 'Male' },
         { month: 'Feb', value: 22, type: 'Male' },
         { month: 'Mar', value: 18, type: 'Male' },
